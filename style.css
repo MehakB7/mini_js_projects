@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  background: pink;
+  height: 300px;
+  width: 300px;
+}
+.white {
+  border: 1px solid black;
+  background: white;
+}
+
+.black {
+  border: 1px solid white;
+  background: black;
+}
+
+.white-piece {
+  width: 70%;
+  height: 70%;
+  background: white;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.black-piece {
+  width: 70%;
+  height: 70%;
+  background: black;
+  border: 1px solid white;
+  margin: auto;
+}
+
+.red {
+  border: 1px solid red;
+}
